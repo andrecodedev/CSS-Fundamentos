@@ -67,6 +67,17 @@ Exemplo com `position: fixed`, `relative`, `absolute`, `sticky` e uso de `float`
 
 ---
 
+## Prévia do Projeto
+
+> _Exemplo de visualização das telas_  
+> ![Print 1](img/print1.png)
+> ![Print 2](img/print2.png)
+> ![Print 3](img/print3.png)
+> ![Print 4](img/print4.png)
+> ![Print 5](img/print5.png)
+
+---
+
 ## Autor
 
 **André Vitor – ANDRECODEDEV**  
