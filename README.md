@@ -33,6 +33,11 @@ CSS-FUNDAMENTOS/
 │
 ├── img/
 │ └── paisagem.webp
+│ ├── print1.png
+│ ├── print2.png
+│ ├── print3.png
+│ ├── print4.png
+│ └── print5.png
 │
 ├── index.html
 └── README.md
@@ -70,11 +75,7 @@ Exemplo com `position: fixed`, `relative`, `absolute`, `sticky` e uso de `float`
 ## Prévia do Projeto
 
 > _Exemplo de visualização das telas_  
-> ![Print 1](img/print1.png)
-> ![Print 2](img/print2.png)
-> ![Print 3](img/print3.png)
-> ![Print 4](img/print4.png)
-> ![Print 5](img/print5.png)
+> ![Print 1](img/print1.png) > ![Print 2](img/print2.png) > ![Print 3](img/print3.png) > ![Print 4](img/print4.png) > ![Print 5](img/print5.png)
 
 ---
 
