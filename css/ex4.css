@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #F5F5F5;
+  color: #2B2D42;
+}
+
+header {
+  background: #3A0CA3;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #3A0CA3;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #4CC9F0;
+}
+
+.principal {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.area-posicionamento {
+  position: relative;
+  height: 250px;
+  background: #EDEBFF;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.caixa {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background: #D9F9FF;
+  border: 2px solid #4CC9F0;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.relative {
+  position: relative;
+  left: 10px;
+  background: #EDEBFF;
+}
+
+.absolute {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #3A0CA3;
+  color: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 70px;
+  background: #4CC9F0;
+  color: #2B2D42;
+}
+
+.float-esq {
+  float: left;
+  margin: 10px 15px 10px 0;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.conteudo {
+  max-width: 800px;
+  text-align: justify;
+  margin: 0 auto;
+  background: #EDEBFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-top: 40px;
+  background: #3A0CA3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-voltar:hover {
+  background: #4CC9F0;
+  color: #2B2D42;
+}
+
+footer {
+  margin-top: 80px;
+  text-align: center;
+  background: #EAEAEA;
+  padding: 20px;
+  color: #333;
+  font-size: 0.9em;
+}

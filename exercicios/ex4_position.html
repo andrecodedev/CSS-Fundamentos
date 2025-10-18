@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 4 – Position e Float</title>
+  <link rel="stylesheet" href="/css/ex4.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Position, Float e Sticky</h1>
+  </header>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="principal">
+    <div class="area-posicionamento">
+      <div class="caixa relative">Relative</div>
+      <div class="caixa absolute">Absolute</div>
+      <div class="caixa sticky">Sticky</div>
+    </div>
+
+    <div class="conteudo">
+      <img src="/img/paisagem.webp" class="float-esq" alt="Paisagem montanhosa">
+      <p>
+        Esta imagem está com <strong>float: left</strong>, o que faz o texto fluir ao redor dela.  
+        Essa técnica é usada em layouts clássicos de revistas e blogs, permitindo que texto e imagens
+        coexistam harmoniosamente no mesmo espaço.
+      </p>
+      <p>
+        O menu superior utiliza <strong>position: fixed</strong>, permanecendo visível mesmo ao rolar a página.  
+        Já a caixa “Relative” serve de referência para a “Absolute”, que é posicionada dentro dela.  
+        A caixa “Sticky” se mantém visível enquanto a rolagem atinge sua posição.
+      </p>
+      <p>
+        Role a página para observar o comportamento do elemento sticky.  
+        O efeito ocorre quando o item atinge o topo do viewport.
+      </p>
+    </div>
+
+    <div class="voltar">
+      <a href="/index.html" class="btn-voltar">⬅ Voltar ao Início</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: André Vitor | Linguagens de Programação - FACENS | &copy; 2025</p>
+  </footer>
+</body>
+</html>
